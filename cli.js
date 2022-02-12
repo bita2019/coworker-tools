@@ -22,7 +22,7 @@ if (command === "list") {
 
 function runListCommand() {
   members.forEach((arrayname) =>
-    console.log(arrayname.firstName, arrayname.lastName)
+    console.log(`${arrayname.firstName} ${arrayname.lastName}`)
   );
   // Replace this with your implementation
   console.log("Called the list command");
